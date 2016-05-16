@@ -37,7 +37,7 @@
 				  ---
 
 				  ##David Case
-				  Technical Lead - Hello World, LLC.
+				  Technical Lead - HelloWorld, Inc.
 				</section>
 				<section data-markdown >
 				  ## What is TDD?
@@ -48,10 +48,138 @@
 				  ## Normal Software Development
 				</section>
 				<section data-markdown >
-					![Testing Pyramid](images/testing-pyramid.png)
+					##Why We TDD
+
+					- Immediate feedback
+					- Confidence to refactor
+					- Executeable documentation
+					- Design insight
 				</section>
+				<section data-markdown >
+					## The testing pyramid
+					![Testing Pyramid](images/testing_pyramid-sm.jpg)
+				</section>
+				<section data-markdown >
+					## Red Green Refactor
+					![Testing Pyramid](images/TDD.jpg)
+				</section>
+				<section data-markdown >
+					## Our Kata
+
+					![Tamagotchi](images/tamagotchi.jpg)
+				</section>
+				<section data-markdown class='align-left'>
+					## What is a Tamagotchi
+
+					A Tamagotchi is a small, handheld digital pet that you can feed, play with, put to bed and clean up after. Look after it well by feeding it the right kinds of foods, showering it with attention and cleaning up after it when required, and your Tamagotchi will grow up to be a smart, well-respected member of society. Ignore its needs and its mood will sour until it eventually dies.
+				</section>
+				<section data-markdown>
+				  ## Our Stories
+
+				  - Feeding Tamagotchi
+				  - Making Tamagothci poo
+				  - Tamagotchi's needs change over time
+				  - Tamagotchi can be Hangry
+				  - Tamagotchi can be Dead
+				</section>
+				<section data-markdown class='align-left'>
+				  ## Feeding Tamagotchi
+				  As a Tamagotchi owner
+
+				  I want to feed my Tamagotchi
+
+				  So that I can satiate its hunger
+
+				  ---
+
+				  GIVEN I have a Tamagotchi
+
+				  WHEN I feed it
+
+				  THEN its hunger is decreased
+
+				  AND its fullness is increased
+				</section>
+				<section data-markdown class='align-left'>
+				  ## Making Tamagotchi 💩
+				  As a Tamagotchi owner
+
+				  I want to make my Tamagotchi poop
+
+				  So that it is more comfortable
+
+				  ---
+
+				  GIVEN I have a Tamagotchi
+
+				  WHEN I make it poop
+
+				  THEN its fullness is decreased
+				</section>
+				<section data-markdown class="align-left">
+				  ## Changing Tamagotchi Needs Over Time
+				  As a Tamagotchi owner
+
+				  I want my Tamagotchi's needs to change over time
+
+				  So that I have to look after it carefully
+
+				  ---
+
+				  GIVEN I have a Tamagotchi
+
+				  WHEN time passes
+
+				  THEN its hunger is increased
+				</section>
+				<section data-markdown class="align-left">
+				  ## Tamagotchi Can Be 😿
+				  As a Tamagotchi owner
+
+				  I want to know when my Tamagotchi is hangry
+
+				  So that I may give it a sandwich
+
+				  ---
+
+				  GIVEN I have a Tamagotchi
+
+				  WHEN its hunger is above 70
+
+				  THEN its mood will be 😿
+				</section>
+				<section data-markdown class="align-left">
+				  ## Tamagotchi Can Be 💀
+				  As a Tamagotchi owner
+
+				  I want to know when my Tamagotchi is dead
+
+				  So that I may hide the body
+
+				  ---
+
+				  GIVEN I have a Tamagotchi
+
+				  WHEN its hunger is 100
+
+				  THEN its mood will be 💀
+				</section>
+				<section data-markdown >
+				  # Wrap up
+				</section>
+				<section data-markdown class='align-left'>
+				  ## Dedicated Mocking Frameworks
+
+				  - SinonJS
+				  - TestDoubleJS
+
+				  What other features could we add that might benefit from mocking?
+				</section>
+				<section data-markdown>
+				  # Question / Comments?
 
 
+				</section>
 			</div>
 		</div>
 
